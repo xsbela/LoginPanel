@@ -1,0 +1,121 @@
+body * {
+    font-family: Roboto Slab;
+    font-style: normal; 
+}
+
+body {
+    margin: 0px !important;
+    overflow: hidden; /* Hide scrollbars */
+}
+
+.container-page {
+    display: flex;
+    justify-content: center;
+}
+
+.txt-login {
+margin-top: 23%;
+}
+
+.container-login {
+    margin-left: 12vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12%;
+}
+
+title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.form-login {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-login * {
+    border-radius: 10px;
+    margin-bottom: 2.5vh;
+    display: block;
+    text-align: left;
+    background: #f4f4f4;
+    width: 340px;
+    height: 56px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #666360;
+    border: none;
+    border: solid 2.5px #ffffff00;
+    
+}
+
+.input {
+    padding-left: 20px;
+}
+
+.input:hover {
+    background-color: #e0e0e0;
+}
+
+.input:focus {
+    outline: none;
+    border: solid 2.5px #2A88C8;
+}
+
+
+.form-login [type="button"] {
+    text-align: center;
+    
+}
+
+.btn-signin {
+    background: #2A88C8;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-top: 24px;
+}
+
+.btn-signin:hover {
+    background: #2174ac;
+}
+
+.link-forgot {
+    color: #2C29E3;
+    text-decoration: none;
+}
+
+.register-cta {
+    color: black;
+}
+
+.link-register {
+    color: #000000;
+    text-decoration: none;
+}
+
+.register-cta {
+    color: black;
+}
+
+.container-background {
+    margin-left: 20vw; 
+    min-width: 41%;
+}
+
+.img-bg {
+    max-height: 84% !important;
+}
+
